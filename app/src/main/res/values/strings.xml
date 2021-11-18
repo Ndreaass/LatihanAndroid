@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">LatihanAndroid</string>
+    <string name="hello">Hello word</string>
+    <string name="nama">Nama saya</string>
+    <string name="member">Member ID</string>
+    <string name="user">user</string>
+    <string name="password">password</string>
+</resources>

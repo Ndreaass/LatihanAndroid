@@ -1,0 +1,61 @@
+
+<!DOCTYPE html>
+<html class="fh responsive win-hoverable" dir="ltr">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Windows OOBE - Office</title>
+    <base href="/" />
+</head>
+<body class="webapp-inner" id="windows">
+    
+
+<div id="react-app" class="control-app template"></div>
+<script type="text/javascript">
+    var office = {
+        officeExperience: "7",
+        token: "MSADELEGATE1.0 EwBYA18iAQAU7fCO2iNz07/GKV6ctXiHSLBFHKYAAWVHioAB0fPKifNxdToDRbtvfT1u0kS+DuAYB4F0MsD5BfyVBsx1E9w8DjlQ74/YQgq2QFt/NtMkRDeckvr3yRXJcpjx62kRs3cZV8s9U0KJ3j/Qvg+hqvE926So45nTEorndVSqkKQw3jZL7Oo5U9WGTSCJDMAQzS7vbVtzZr3gApUMOPwDNqTyaeDW0cZMrpauUwzboF/qZDbjoFisrT1AnsmpComOXT2qocnlfcTZq0RxzLrvHa8Hgeon6inh7tNOc2JYbTfCAceU6OLOA9VVPuGjIxwbevZMKxyDDmQG0u8SiwO3jsMflhhlE5vzyiTViLEzYrVzJ9lmiPxdnm4DZgAACHki2PQCGYRSKAI6d3UH0JfRx1tgjh6EORJgUqDMYwXNNDgHKtRnSJSqYHrlbigKnMckRkkmWY1btebtYVxqO+K9cXZ1/GcSulhD+aaaHZ43Fj7/ie1xmXYhsh5f3Gs17yl3Anvgfj0i0pSgrJ1/sBDotKqXGpemqvNy8smZjksY4rXGCzKk4AZ7gnewxW+LAQVVAv31R4mMUo1PvMx+M8bFy+u3yefRWJRCHL+43WEus+Y55aOtZmCAIbEfYdKYhaDn2XW0gX7LeqmFHUDaBUlV9r0hPvkguUJ63ahSXtrRuivx8r2rs/x+lx4Q8cTIfd0S+4wurOySCYTqhLUf+nMVzGlnNbLjIdw7Q0pZOeBA/elfyriMvwShVaIraN3BGbZtM2lujaVysOdvzmtM6phvO+6flpHcl0KSQ7smvKcuJDwKx1zXSw+Z3ffP8pUA8FDEcFV72Kq5VHu4XX+wsOEMRzkb+A7mYZ2gqlKssFBPBjkiuenMguy166iK+8LhO7+zh1rUNdEtTUXhVqK+Mc0NVmre4XK06GZfSpF4Aoap9kat3QAwWHA5Yi3fTY7xykhZVhvuJx8lfCtJyo71AHOVsXH/G154C7coHJa5TM85YzDXfwKN7eJxU32xvrUdzV4Z2cCR1DxkJfa3GdiKyLtvDQ6VpmzEkHclId38Wx/JEvZ7v8e939yL+XyVMDI1QjEHmniflX3M0lflCwqU/6GcMqBz0oobObmsL+WY/M3YVq45Ag==",
+        correlationId: "0d3955b6-d061-0002-145c-390d61d0d701",
+        market: "id",
+        language: "en-US",
+        storeId: "CFQ7TTC0K5DM/007R/CFQ7TTC08XL2",
+        price: "Rp1,299,999.00",
+        userPuid: "000340013AB14CF8",
+        cxhExperienceName: "SCOOBE",
+        osBuild: "VIBRANIUM",
+        region: "SoutheastAsia",
+        environment: "Production",
+        isNavmesh: "False",
+        configIdList: "P-E-79691-C1-21,P-E-77074-2-5,P-R-90078-2-5,P-R-90076-2-5,P-R-90074-2-6,P-R-85590-2-12,P-R-78443-4-5,P-R-81954-2-5,P-R-76642-1-2,P-R-73537-1-2,P-R-52798-1-9",
+        etag: "&quot;X4MVNXjjPR4lBqkXQe/K2LjkIQOd8muuzm6U3Dbuw7c=&quot;",
+        osBuildNumber: "19042",
+        versionNumber: "1.0.20211014.1",
+        officeType: "C2r",
+        productType: "Unknown",
+        cxid: "Office",
+        officeVisitIndex: "2",
+        isFromMicrosoftDomain: "True",
+        ariaIngestionKey: "ec40a309b2d540f68d7477b1ca96a064-b19cb723-0c88-4374-8c87-bcc62283efe1-7338",
+        cdnBaseUrl: "https://oloobe-prod-cdn-storage.azureedge.net/officeoobe",
+        errorAnimationFileName: "",
+    };
+    var ecsConfigurations = {"EnableMachineUsageIntent":"true","EnableRefactoredOfficeStatus":"True","AcquireSmbSdkToken":"true","EnableOms":"true","EnableOfficeDigitalAttach":"true","EnableRoobe":"true","EnablePinHWAPage":"true","EnablePinHWAPreCheck":"true","EnableIrisExperiment":"true","AriaLogManagerFlushTimeout":"1000","EnableExperience":"true","EnableStoreSDK":"true"};
+    var clientTrialInfo = {"ListPrice":"Rp649,870.00","StoreId":"CFQ7TTC0K5DM/007R/CFQ7TTC08XL2","Price":"Rp1,299,999.00","RecurrencePrice":"Rp1,299,999.00","TaxType":1};
+    var officePrebundledInfo = {"ProductType":0,"LocalizedProductName":""};
+    var scriptLoaded = false;
+    var termsViewerStrings = {"privacyHeader":"Microsoft Privacy Statement","learnMoreHeader":"Learn more about returns","storeTermsOfSaleHeader":"Store Terms of Sale","statementCloseButton":"Close","animationFileName":null};
+    var pinHWAStrings = {"valuePropsArray":[{"header":"Office apps on the web","body":"Access free web versions of Word, Excel, PowerPoint, and more."},{"header":"5 GB OneDrive cloud storage","body":"Save and share up to 5 GB of files and photos."}],"header":"Not ready for Microsoft 365? Use free Office web apps instead.","image":"/officeoobe/hwa-app.svg","pinOptionDescription":"Pin the free Office app to your taskbar","valueProps":[{"header":"Office apps on the web","body":"Access free web versions of Word, Excel, PowerPoint, and more."},{"header":"5 GB OneDrive cloud storage","body":"Save and share up to 5 GB of files and photos."}],"yesButton":{"yesCTA":"Next"},"animationOverrideFileName":null};
+    var pageContentStrings = {"kind":1,"payload":{"header":"You're getting 50% off Microsoft 365","image":"https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RWLKtZ","imageAltText":"Image of Office apps saving files locally and to the cloud","legalDisclaimer":"Credit card required. Microsoft 365 Family is (##Rp1,299,999.00##) Rp649,870.00 VAT included for your first year. After that, it's Rp1,299,999.00 VAT included per year. Cancel anytime to stop future charges by visiting your Microsoft account.","cortana":"Get the most out of Windows with Microsoft 365.","closePrivacy":"Close privacy modal","subheader":null,"bullets":["Protect 1 TB of your photos & files by saving to OneDrive cloud storage, just in case something happens to this device.","Access to premium Office apps for creating quality documents in less time.","Share one convenient subscription with up to 5 other people.","Save time and focus on what matters with one secure email and calendar app from Outlook."],"paragraphs":null,"buttons":{"kind":1,"payload":{"yesCTA":"Next","noCTA":"No, thanks","privacyLink":"Privacy & Cookies"}}}};
+    var beacons = [{"Tracking":{"baseUri":"https://ris.api.iris.microsoft.com/v1/a/{ACTION}?PG=IRIS000001.0000000456&UNID=88000456&CID=128000000002961349&PID=425372629&TargetID=700371395&REQASID=&ASID=0D3955B6D0610002145C390D61D0D701&REQT=20211103T031856&UIT=A&ID=DE4426B8FFB3BCE6FC495C74FFFFFFFF&region=ID&SLOT=&RV=&RS=&ER_AC=&ANID=DE4426B8FFB3BCE6FC495C74FFFFFFFF&DS_EVTID=0D3955B6D0610002145C390D61D0D701&WFIDS=&DEVOSVER=&APP=&lang=&oem=&devFam=&ossku=&cmdVer=&mo=&cap=&bSrc=i.m"},"Prm":{"_id":"128000000002961349","_imp":"https://arc.msn.com/v3/Delivery/Events/Impression?PID=425372629&TID=700371395&CID=128000000002961349&BID=1659331592&PG=IRIS000001.0000000456&TPID=425372629&REQASID=&ASID=0D3955B6D0610002145C390D61D0D701&SLOT=&REQT=20211103T031856&MA_Score=2&ANID=DE4426B8FFB3BCE6FC495C74FFFFFFFF&DS_EVTID=0D3955B6D0610002145C390D61D0D701&PG=IRIS000001.0000000456&UNID=88000456&MAP_TID=087C6819-E598-442A-B76F-146F88576837&ASID=0D3955B6D0610002145C390D61D0D701&ARC=1&EMS=1&LOCALE=EN-US&COUNTRY=ID&HTD=-1&LANG=1033&DEVLANG=EN&CIP=20.195.56.156&ID=DE4426B8FFB3BCE6FC495C74FFFFFFFF&OPTOUTSTATE=0&HTTPS=1&MARKETBASEDCOUNTRY=ID&CFMT=&H=0&W=0&FESVER=1.3&CXH_EXPERIENCE_NAME=2&LEGACY_OFC_VERSION=NONE&OFC_VISIT_INDEX=2&OFC_INSTALL_TYPE=CLICK2RUN&OFC_OPENED=FALSE&SCS_USER_INTENT=NONE&OFC_SCENARIO_TYPE=1&OFC_TRANSACTION_TYPE=3&OFC_FLIGHTS=TRUE%3BTRUE%3BTRUE%3BTRUE%3BTRUE%3BTRUE%3BTRUE%3BTRUE%3BTRUE%3B1000%3BTRUE%3BTRUE&OFC_PREBUNDLED_PRODUCT_TYPE=0&ARCRAS=1&CHNL=CFD&UIT=A"}}];
+</script>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/winjs/3.0.0/js/base.js" integrity="sha384-TmTUpNu1pw7xfc800Vb+LpKgtb5EcmjrJi8t3lWx0+g6wl7dGq9n6OvDJiuPdVH8" crossorigin="anonymous"></script>
+<script>(window.WinJS||document.write("\u003Cscript src=\u0022/officeoobe/lib/winjs/base.js?v=oaE2658Sx7R8GHcQljW8qwje0CDIeg2AZFTV942M9z4\u0022 crossorigin=\u0022anonymous\u0022\u003E\u003C/script\u003E"));</script>
+
+    
+    <script src="https://oloobe-prod-cdn-storage.azureedge.net/officeoobe/discountedpurchase-patronus_81A0CB9BA77EDDFF3B4D8C1DA0353BDCE8E9F739EFA3F53278FD235A1ABAAD23.js" onload="scriptLoaded=true;" crossorigin="anonymous"></script>
+<script>(scriptLoaded||document.write("\u003Cscript src=\u0022/officeoobe/discountedpurchase-patronus.js?region=SoutheastAsia\u0026amp;v=gaDLm6d-3f87TYwdoDU73Ojp9znvo_UyeP0jWhq6rSM\u0022 onload=\u0022scriptLoaded=true;\u0022 crossorigin=\u0022anonymous\u0022\u003E\u003C/script\u003E"));</script>
+
+</body>
+</html>
